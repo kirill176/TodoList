@@ -158,13 +158,15 @@ h1 {
 
 .list ul li p {
   color: white;
+  max-width: 65%;
+  word-break: break-all;
 }
 
 .list ul li button {
   background-color: red;
   color: white;
   width: 100px;
-  height: 25px;
+  min-height: 25px;
 }
 
 .main {

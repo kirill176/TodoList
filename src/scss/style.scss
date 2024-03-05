@@ -58,17 +58,18 @@ h1 {
       padding: 10px;
       align-items: center;
 
-      p{
+      p {
         color: white;
+        max-width: 65%;
+        word-break: break-all;
       }
 
-      button{
+      button {
         background-color: red;
         color: white;
         width: 100px;
-        height: 25px;
+        min-height: 25px;
       }
-
     }
   }
 }
